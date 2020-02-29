@@ -1,4 +1,9 @@
 /* -*- Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- */
+//https://stackoverflow.com/questions/22422741/turning-off-the-register-storage-class-specifier-is-deprecated-warning
+#if __cplusplus > 199711L
+#define register      // Deprecated in C++11.
+#endif  // #if __cplusplus > 199711L
+
 #ifndef _FASTRANK_POPCOUNT_H_
 #define _FASTRANK_POPCOUNT_H_
 
