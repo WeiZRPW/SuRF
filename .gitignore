@@ -1,3 +1,10 @@
+simple_example*
+
+build/
+
+#vscode
+*.vscode
+
 # Prerequisites
 *.d
 
