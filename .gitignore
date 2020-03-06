@@ -1,9 +1,13 @@
 simple_example*
 
 build/
+bench/
 
 #vscode
 *.vscode
+
+#ignore jar file
+*.jar
 
 # Prerequisites
 *.d
